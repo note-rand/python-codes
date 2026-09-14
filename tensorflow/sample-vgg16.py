@@ -44,7 +44,7 @@ model = tf.keras.applications.VGG16(
 
 
 # 画像の前処理
-x = preprocess_image('シマウマ.jpg')
+x = preprocess_image('画像名.jpg')
 
 # 予測
 predictions = model.predict(x)
